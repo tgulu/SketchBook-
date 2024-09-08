@@ -15,6 +15,23 @@
   align-items: center;
 }
 
+.box {
+  border: 1px solid black;
+  height: 900px;
+  width: 900px;
+  position: absolute;
+  top: 200px;
+  right: 650px;
+}
+
 button {
   border: 1px solid black;
+}
+
+.minibox {
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
 }
